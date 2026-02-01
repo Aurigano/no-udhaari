@@ -1,4 +1,6 @@
-# Netlify build config. Publish directory is set here (or in Netlify UI).
+# Netlify: work around npm optional deps bug — rollup-linux-x64-gnu is not
+# installed when lockfile was created on macOS/Windows. A fresh install on
+# Linux fixes it. https://github.com/npm/cli/issues/4828
 [build]
-  command = "npm run build"
+  command = "rm -rf node_modules && npm install && npm run build"
   publish = "dist"
