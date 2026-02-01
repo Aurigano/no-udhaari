@@ -1,8 +1,9 @@
-# Install optional deps for all platforms so Rollup Linux binary is present on Netlify.
+# npm optional deps bug: Linux Rollup binary not installed when lockfile from another OS.
+# Running npm install again (with platform=all) in the build step installs it.
 # https://github.com/npm/cli/issues/4828
 [build.environment]
   NPM_CONFIG_PLATFORM = "all"
 
 [build]
-  command = "npm run build"
+  command = "npm install && npm run build"
   publish = "dist"
