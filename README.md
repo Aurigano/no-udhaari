@@ -1,2 +1,2 @@
 # no-udhaari
-Share Bill Equally on the fly
+Share Bill equally on the fly
