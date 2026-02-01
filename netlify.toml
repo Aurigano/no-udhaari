@@ -1,6 +1,7 @@
-# Optional: uncomment to fix Rollup Linux binary when lockfile was created on another OS.
-# [build.environment]
-#   NPM_CONFIG_PLATFORM = "all"
+# Install optional deps for all platforms so Rollup Linux binary is present on Netlify.
+# https://github.com/npm/cli/issues/4828
+[build.environment]
+  NPM_CONFIG_PLATFORM = "all"
 
 [build]
   command = "npm run build"
