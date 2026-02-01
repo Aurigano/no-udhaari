@@ -1,0 +1,157 @@
+.wrapper {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: #64748b;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.transfers {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.transfer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  flex-wrap: wrap;
+}
+
+.from,
+.to {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.arrow {
+  color: #94a3b8;
+  font-size: 1.1rem;
+}
+
+.amount {
+  font-weight: 700;
+  color: #0f172a;
+  min-width: 5rem;
+  text-align: center;
+}
+
+.settled {
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  color: #065f46;
+  padding: 1.25rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.balances {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e2e8f0;
+}
+
+.balancesTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748b;
+  margin-bottom: 0.75rem;
+}
+
+.balanceList {
+  list-style: none;
+}
+
+.balanceRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.balanceRow:last-child {
+  border-bottom: none;
+}
+
+.balanceName {
+  flex: 1;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.balanceZero {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.balancePositive {
+  color: #059669;
+  font-weight: 600;
+}
+
+.balanceNegative {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.backBtn {
+  padding: 0.85rem 1.25rem;
+  background: #f1f5f9;
+  color: #475569;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.backBtn:hover {
+  background: #e2e8f0;
+}
+
+.startOverBtn {
+  flex: 1;
+  padding: 0.85rem 1.25rem;
+  background: #0f172a;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.startOverBtn:hover {
+  background: #1e293b;
+}

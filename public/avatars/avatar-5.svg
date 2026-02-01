@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="32" fill="#84cc16"/>
+  <!-- avocado body -->
+  <path d="M20 18 Q14 32 20 48 Q32 56 44 48 Q50 32 44 18 Q32 10 20 18 Z" fill="#65a30d" stroke="#4d7c0f" stroke-width="1"/>
+  <!-- pit -->
+  <ellipse cx="32" cy="34" rx="10" ry="14" fill="#fef3c7"/>
+  <ellipse cx="32" cy="34" rx="8" ry="12" fill="#fde68a"/>
+  <!-- face on pit -->
+  <ellipse cx="26" cy="32" rx="2.5" ry="3" fill="#1e293b"/>
+  <ellipse cx="38" cy="32" rx="2.5" ry="3" fill="#1e293b"/>
+  <path d="M26 40 Q32 46 38 40" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>

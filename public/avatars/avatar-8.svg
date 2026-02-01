@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="sun-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="#1e293b"/>
+  <!-- rays -->
+  <path d="M32 4 L36 4 L36 8 L32 8 Z" fill="url(#sun-bg)"/>
+  <path d="M32 56 L36 56 L36 60 L32 60 Z" fill="url(#sun-bg)"/>
+  <path d="M4 32 L8 32 L8 36 L4 36 Z" fill="url(#sun-bg)"/>
+  <path d="M56 32 L60 32 L60 36 L56 36 Z" fill="url(#sun-bg)"/>
+  <path d="M12 12 L14.8 14.8 L13.4 16.2 L10.6 13.4 Z" fill="url(#sun-bg)"/>
+  <path d="M51.4 51.4 L54.2 54.2 L52.8 55.6 L50 52.8 Z" fill="url(#sun-bg)"/>
+  <path d="M12 52 L14.8 49.2 L16.2 50.6 L13.4 53.4 Z" fill="url(#sun-bg)"/>
+  <path d="M51.4 12.6 L54.2 9.8 L55.6 11.2 L52.8 14 Z" fill="url(#sun-bg)"/>
+  <!-- sun face -->
+  <circle cx="32" cy="32" r="16" fill="url(#sun-bg)" stroke="#d97706" stroke-width="1"/>
+  <ellipse cx="26" cy="28" rx="3" ry="4" fill="#1e293b"/>
+  <ellipse cx="38" cy="28" rx="3" ry="4" fill="#1e293b"/>
+  <path d="M24 38 Q32 46 40 38" stroke="#1e293b" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>
