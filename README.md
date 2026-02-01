@@ -24,6 +24,27 @@ npm run build
 npm run preview
 ```
 
+## Deploy to Netlify
+
+If your `package-lock.json` was created with a **private npm registry** (e.g. JFrog), Netlify will get **E401** or **Rollup Linux binary** errors because it can’t use that registry.
+
+**Fix:** Regenerate the lockfile using the **public** npm registry and commit it:
+
+```bash
+rm package-lock.json
+npm install --registry https://registry.npmjs.org/
+git add package-lock.json
+git commit -m "chore: lockfile for public npm (Netlify)"
+git push
+```
+
+After that, Netlify’s default install will use public npm and the build should pass. If you still see the Rollup error, in Netlify → **Site settings → Environment variables** add:
+
+- **Key:** `NPM_CONFIG_PLATFORM`  
+- **Value:** `all`
+
+Then trigger a new deploy.
+
 ## Tech
 
 - **Vite** + **React 19**

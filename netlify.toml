@@ -1,6 +1,7 @@
-# Netlify: work around npm optional deps bug — rollup-linux-x64-gnu is not
-# installed when lockfile was created on macOS/Windows. A fresh install on
-# Linux fixes it. https://github.com/npm/cli/issues/4828
+# Optional: uncomment to fix Rollup Linux binary when lockfile was created on another OS.
+# [build.environment]
+#   NPM_CONFIG_PLATFORM = "all"
+
 [build]
-  command = "rm -rf node_modules && npm install && npm run build"
+  command = "npm run build"
   publish = "dist"
