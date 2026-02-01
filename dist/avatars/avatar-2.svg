@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="32" fill="#78716c"/>
+  <!-- guitar body -->
+  <path d="M16 28 Q16 48 32 52 Q48 48 48 28 Q48 20 32 16 Q16 20 16 28 Z" fill="#78350f" stroke="#92400e" stroke-width="1.5"/>
+  <ellipse cx="32" cy="36" rx="10" ry="12" fill="#1c1917"/>
+  <ellipse cx="32" cy="36" rx="6" ry="8" fill="#292524"/>
+  <!-- neck -->
+  <rect x="28" y="8" width="8" height="22" rx="2" fill="#78350f"/>
+  <!-- head -->
+  <rect x="26" y="2" width="12" height="8" rx="2" fill="#78350f"/>
+  <circle cx="30" cy="5" r="2" fill="#fafafa"/>
+  <circle cx="38" cy="5" r="2" fill="#fafafa"/>
+  <!-- face: eyes on body -->
+  <ellipse cx="24" cy="32" rx="3" ry="3.5" fill="#fafafa"/>
+  <ellipse cx="40" cy="32" rx="3" ry="3.5" fill="#fafafa"/>
+  <ellipse cx="24" cy="32" rx="1" ry="1.5" fill="#1e293b"/>
+  <ellipse cx="40" cy="32" rx="1" ry="1.5" fill="#1e293b"/>
+  <!-- smile = sound hole -->
+  <path d="M28 40 Q32 46 36 40" stroke="#fafafa" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,4 @@
+# Netlify build config. Publish directory is set here (or in Netlify UI).
+[build]
+  command = "npm run build"
+  publish = "dist"
